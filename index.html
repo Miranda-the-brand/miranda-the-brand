@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Miranda</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+  <header>
+    <h5>MIRANDA</h5>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="index.html#testimonio">Testimonios</a></li>
+        <li><a href="sobre-miranda.html">Sobre Miranda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="banner">
+    <div class="bannerboton">
+      <button onclick="window.location.href='catalogo.html'">Shop now!</button>
+    </div>
+  </section>
+
+  <div id="my-div">
+    <h3>Lo que dicen nuestros clientes.</h3>
+    <h8>Trabajamos de manera segura y confiable, procurando siempre la mejor experiencia para ustedes.</h8>
+  </div>
+  
+  <section id="testimonio">
+    <div id="columna1">
+      <div class="columna-izquierda">
+        <img src="img/testimonio1.jpg" id="imagen" width="80" height="80">
+        <script>
+          var imagen = document.getElementById("imagen");
+          imagen.style.borderRadius = "50%";
+        </script>
+      </div>
+      <div class="columna-derecha">
+        <h4>¡La tienda de ropa para mujer más increíble que he visitado! Me encantó la atención personalizada y la gran variedad de estilos.</h4>
+        <p>Juliana Vargas</p>
+      </div>
+    </div>
+  
+    <div id="columna1">
+      <div class="columna-izquierda">
+        <img src="img/testimonio2.jpeg" id="imagen2" width="80" height="80">
+        <script>
+          var imagen2 = document.getElementById("imagen2");
+          imagen2.style.borderRadius = "50%";
+        </script>
+      </div>
+      <div class="columna-derecha">
+        <h4>La tienda tiene ropa femenina moderna y elegante, encontré el outfit perfecto para mi reunión de negocios, gracias.</h4>
+        <p>Miriam Contreras</p>
+      </div>
+    </div>
+  
+  </section>
+
+  <section id="sobre-nosotros">
+    <h3>Sobre nosotros</h3>
+    <p>Somos Miranda, una tienda de ropa femenina con estilo y calidad.</p>
+    <div id="redes-sociales">
+      <a href="https://www.facebook.com/profile.php?id=100063697844921">
+        <img src="img/f.png" alt="Facebook de Miranda" width="50" height="50">
+      </a>
+      <a href="https://www.instagram.com/miranda_thebrand/">
+        <img src="img/i.png" alt="Instagram de Miranda" width="50" height="50">
+      </a>
+    </div>
+  </section>
+  
+  
+    
+  <footer>
+    <p>Derechos reservados &copy; 2023</p>
+  </footer>
+</body>
+</html>

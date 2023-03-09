@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+  <header>
+    <h5>MIRANDA</h5>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="index.html#testimonio">Testimonios</a></li>
+        <li><a href="sobre-miranda.html">Sobre Miranda</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section>
+    <div class="columna-p">
+      <h10>¿En cuanto tiempo recibo mi pedido ya?</h10>
+      <p>Depende del tiempo de procesamiento y envío, se proporcionará una fecha estimada de entrega.</p>
+      <br>
+      <h10>¿Cual es el precio del envío?</h10>
+      <p>El precio del envío variará según el destino, peso y tamaño del paquete, se indicará al finalizar la compra.</p>
+    </div>
+    <div class="columna-p">
+      <h10>¿Que empresa envía sus productos a provincia?</h10>
+      <p>Se informará qué empresa de envíos realiza entregas a provincias según la política de envíos.</p>
+      <br>
+      <h10>¿Cuales son los medios de pago?</h10>
+      <p>Entre los medios de pago aceptados están tarjetas de crédito, débito, transferencia bancaria y plataformas en línea.</p>
+    </div>
+  </section>
+
+  <section>
+      <form method="post" action="enviar.php">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+        <label>Celular:</label>
+        <input type="tel" name="celular" required>
+        <label>Email:</label>
+        <input type="email" name="correo" required>
+        <label>Motivo:</label>
+        <input type="text" name="motivo" required>
+        <label>Mensaje:</label>
+        <textarea name="mensaje" required></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+  </section>
+
+
+  <section id="sobre-nosotros">
+    <h3>Sobre nosotros</h3>
+    <p>Somos Miranda, una tienda de ropa femenina con estilo y calidad.</p>
+    <div id="redes-sociales">
+      <a href="https://www.facebook.com/profile.php?id=100063697844921">
+        <img src="img/f.png" alt="Facebook de Miranda" width="50" height="50">
+      </a>
+      <a href="https://www.instagram.com/miranda_thebrand/">
+        <img src="img/i.png" alt="Instagram de Miranda" width="50" height="50">
+      </a>
+    </div>
+  </section>
+    
+  <footer>
+    <p>Derechos reservados &copy; 2023</p>
+  </footer>
+</body>
+</html>

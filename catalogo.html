@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+  <header>
+    <h5>MIRANDA</h5>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html" class="active">Catálogo</a></li>
+        <li><a href="index.html#testimonio">Testimonios</a></li>
+        <li><a href="sobre-miranda.html">Sobre Miranda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="catalogo-t">
+        <h9>Catálogo Miranda</h9>
+  </section>
+
+  <section id="catalogo">
+    <div class="catalogo-container">
+      <div class="column">
+        <div class="sub-seccion">
+          <img src="img/KNIT LUCIA 1.jpeg" onmouseover="cambiarImagen(this,'img/KNIT LUCIA 2.jpeg')" onmouseout="cambiarImagen(this,'img/KNIT LUCIA 1.jpeg') ">
+          <div class="producto-nombre">KNIT LUCÍA</div>
+          <div class="producto-descripcion">Descripción: Disponible en color beige, gris y negro. Material: hilo al tacto. Talla: S/M</div>
+          <div class="producto-precio"><strong>S/.29 soles</strong></div>
+          <button onclick="location.href='https://wa.me/+51940151443?text=Hola, quiero comprar el KNIT LUCÍA.'" type="button">Comprar</button>
+        </div>
+        <div class="sub-seccion">
+          <img src="img/KNIT ANDREA 1.jpeg" onmouseover="cambiarImagen(this,'img/KNIT ANDREA 2.jpeg')" onmouseout="cambiarImagen(this,'img/KNIT ANDREA 1.jpeg')">
+          <div class="producto-nombre">KNIT ANDREA</div>
+          <div class="producto-descripcion">Descripción: Disponible en color celeste, blanco, negro, marrón y caramelo. Material: hilo al tacto. Talla: S/M</div>
+          <div class="producto-precio"><strong>S/.29 soles</strong></div>
+          <button onclick="location.href='https://wa.me/+51940151443?text=Hola, quiero comprar el KNIT ANDREA.'" type="button">Comprar</button>
+        </div>
+        <div class="sub-seccion">
+          <img src="img/CONJUNTO SUMMER VIBES 1.jpeg" onmouseover="cambiarImagen(this,'img/CONJUNTO SUMMER VIBES 2.jpeg')" onmouseout="cambiarImagen(this,'img/CONJUNTO SUMMER VIBES 1.jpeg')">
+          <div class="producto-nombre">CONJUNTO SUMMER VIBES</div>
+          <div class="producto-descripcion">Descripción: Puede adquirirse por separado a S/.25 cada prenda* Disponible en color negro, material Chalis licrado y en color blanco, material Rayón. Talla: S/M</div>
+          <div class="producto-precio"><strong>S/.45 soles</strong></div>
+          <button onclick="location.href='https://wa.me/+51940151443?text=Hola, quiero comprar el CONJUNTO SUMMER VIBES.'" type="button">Comprar</button>
+        </div>
+      </div>
+      <div class="column">
+        <div class="sub-seccion">
+          <img src="img/CARGO JEAN 1.jpeg" onmouseover="cambiarImagen(this,'img/CARGO JEAN 2.jpeg')" onmouseout="cambiarImagen(this,'img/CARGO JEAN 1.jpeg')">
+          <div class="producto-nombre">CARGO JEAN</div>
+          <div class="producto-descripcion">Descripción: Disponible en celeste y negro. Jean de tiro alto y tela rígida con bolsillos a los lados. Tallas: 28 y 30</div>
+          <div class="producto-precio"><strong>S/.75 soles</strong></div>
+          <button onclick="location.href='https://wa.me/+51940151443?text=Hola, quiero comprar el CARGO JEAN.'" type="button">Comprar</button>
+        </div>
+        <div class="sub-seccion">
+          <img src="img/CARDIGAN LUANA 1.jpeg" onmouseover="cambiarImagen(this,'img/CARDIGAN LUANA 2.jpeg')" onmouseout="cambiarImagen(this,'img/CARDIGAN LUANA 1.jpeg')">
+          <div class="producto-nombre">CARDIGAN LUANA</div>
+          <div class="producto-descripcion">Descripción: Disponible en color crema. Material: Rib aterciopelado. Talla: S/M </div>
+          <div class="producto-precio"><strong>S/.19 soles</strong></div>
+          <button onclick="location.href='https://wa.me/+51940151443?text=Hola, quiero comprar el CARDIGAN LUANA.'" type="button">Comprar</button>
+        </div>
+        <div class="sub-seccion">
+          <img src="img/BLUSA CUBA 1.jpeg" onmouseover="cambiarImagen(this,'img/BLUSA CUBA 2.jpeg')" onmouseout="cambiarImagen(this,'img/BLUSA CUBA 1.jpeg')">
+          <div class="producto-nombre">BLUSA CUBA</div>
+          <div class="producto-descripcion">Descripción: Disponible en color crema. Material: Rib aterciopelado. Talla: S/M </div>
+          <div class="producto-precio"><strong>S/.19 soles</strong></div>
+          <button onclick="location.href='https://wa.me/+51940151443?text=Hola, quiero comprar el CARDIGAN LUANA.'" type="button">Comprar</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    function cambiarImagen(imagen, nuevaImagen) {
+      imagen.src = nuevaImagen;
+    }
+  </script>
+  
+  
+
+  <section id="sobre-nosotros">
+    <h3>Sobre nosotros</h3>
+    <p>Somos Miranda, una tienda de ropa femenina con estilo y calidad.</p>
+    <div id="redes-sociales">
+      <a href="https://www.facebook.com/profile.php?id=100063697844921">
+        <img src="img/f.png" alt="Facebook de Miranda" width="50" height="50">
+      </a>
+      <a href="https://www.instagram.com/miranda_thebrand/">
+        <img src="img/i.png" alt="Instagram de Miranda" width="50" height="50">
+      </a>
+    </div>
+  </section>
+  
+  
+    
+  <footer>
+    <p>Derechos reservados &copy; 2023</p>
+  </footer>
+</body>
+</html>
